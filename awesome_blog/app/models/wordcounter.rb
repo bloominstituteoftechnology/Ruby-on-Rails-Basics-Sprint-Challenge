@@ -1,5 +1,7 @@
 module WordCounter
-    def initialize(word)
-        word.split(",").count
-    end
+    def word_count
+        if text.nil?
+            return 0
+        end
+        text.split(',').count
 end

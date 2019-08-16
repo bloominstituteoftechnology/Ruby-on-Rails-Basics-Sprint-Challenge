@@ -1,3 +1,5 @@
+require 'wordcounter.rb'
+
 class Quote < ApplicationRecord
-    include WordCount
+    include WordCounter
 end

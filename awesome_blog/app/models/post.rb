@@ -1,3 +1,5 @@
+require 'wordcounter.rb'
+
 class Post < ApplicationRecord
-    include WordCount
+    include WordCounter
 end
