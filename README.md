@@ -1,4 +1,4 @@
-# Ruby on Rails Basics - Sprint Challenge
+# Ruby on Rails Basics - Sprint Challenge.
 
 ## Instructions
 
