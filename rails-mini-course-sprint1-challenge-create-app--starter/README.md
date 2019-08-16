@@ -49,7 +49,7 @@ These are the steps you should take in order to create your MVP:
 5. Run the rails server and use the appropriate url endpoints to add some `posts` and `quotes` to your application
 6. Create a single Module called WordCounter in the `app/models` folder.
 7. Write a method in the module named `word_count` that counts the total number of words in the `body` attribute of any file it is mixed into. If the body is `nil`, you should return `0`.
-8. The `Quote` and `Post` model files shoulde `include` the `WordCounter` module.
+8. The `Quote` and `Post` model files should `include` the `WordCounter` module.
 9. Create a class called `AppStats` in the `app/models` directory. Create two instance variables--one for `posts` and one for `quotes`. Make sure to set them up with the `attr_reader` method so they can be accessed externally but not changed externally. Use the `initialize` method to store all the posts in the posts instance variable and all the quotes in the quotes instance variable.
 10. Create the following methods in the `AppStats` class:
     1. `posts_count`: returns the number of posts

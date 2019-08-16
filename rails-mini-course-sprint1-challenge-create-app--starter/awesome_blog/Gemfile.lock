@@ -1,3 +1,9 @@
+PATH
+  remote: ../../publishable
+  specs:
+    publishable (0.1.0)
+      activerecord (~> 5.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ DEPENDENCIES
   chromedriver-helper
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  publishable!
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)
