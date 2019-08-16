@@ -1,7 +1,9 @@
 module WordCounter
     def word_count
-        if text.nil?
+        # check is the string is empty
+        if body.nil?
             return 0
         end
-        text.split(',').count
+        # else split into array and count it
+        body.split(',').count
 end
