@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<h1>AppStats</h1>
+
+<h2>Posts Count:&nbsp;<%= @stats.posts_count %></h2>
+<h2>Quotes Count:&nbsp;<%= @stats.quotes_count %></h2>
+<h2>Posts Word Count:&nbsp;<%= @stats.posts_word_count %></h2>
+<h2>Quotes Word Count:&nbsp;<%= @stats.quotes_word_count %></h2>
+<h2>Total Count:&nbsp;<%= @stats.total_count %></h2>
+<h2>Total Word:&nbsp;<%= @stats.total_word_count %></h2>
+
+<br>
+<%= link_to 'Back', posts_path %>
